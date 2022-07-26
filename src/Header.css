@@ -1,0 +1,39 @@
+header {
+    background: rgb(30, 33, 34);
+
+
+}
+
+
+/* 0 4px 8px 0 #9965f4 */
+
+
+
+
+.purple_shadow {
+    box-shadow: 0 4px 8px 0 #9965f4;
+}
+
+.orange_shadow {
+    box-shadow: 0 4px 8px 0 #fc8808;
+}
+
+.orange_shadow nav a:hover {
+    color: #c46105;
+    transition: ease-in 400ms;
+}
+
+.purple_shadow nav a:hover{
+    color:#7e3ff2;
+    transition: ease-in 400ms;
+}
+
+.purple_shadow .current{
+    color: #9965f4;
+    
+}
+
+.orange_shadow .current{
+    color: #fc8808;
+    
+}
